@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.shortnav ul {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+.shortnav ul li {
+    display: inline;
+    margin: 20px;
+
+}
+span{
+    font-weight: 600;
+    font-size: small;
+}
+.limg {
+    width: 40px;
+}
+
+.pro,i{
+    width: 20px;
+}
+.mainnav{
+    width: 80%;
+    display: flex;
+}
+.lolx{
+    width: 70px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 10px;
+
+  }
+  
+  .dropdown-input {
+    padding: 10px;
+    border: 2px solid #0e0c0c;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    background-color: #f2f2f2;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    display: none;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:focus{
+    border: 1px solid rgb(26, 164, 238);
+  }
+   .inpt{
+  width: 270px;
+  height: 50px;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 20px 0 20px;
+  color: #000;
+  display: flex;
+  border-radius: 3px;
+}
+.mainnav i.fa-magnifying-glass{
+    font-size: 25px;
+    color:white;
+    padding: 12px 18px;
+    padding-right: 35px;
+    padding-bottom: 9px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #032e23;
+    height: 50px;
+}
+.fa-comment{
+  margin-left: 30px;
+  padding: 20px;
+  font-size: 22px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.fa-bell{
+  margin-left: 5px;
+  padding: 22px;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.fa-comment:hover,.fa-bell:hover{
+  color: rgb(12, 108, 108);
+}
+.pimg{
+  width: 35px;
+}
+.btn-group{
+  background-color: #f2f2f2;
+  border: none;
+}
