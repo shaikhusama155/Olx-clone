@@ -30,6 +30,7 @@ span{
 }
 .lolx{
     width: 70px;
+    height: 50px;
 }
 .dropdown {
     position: relative;
@@ -117,4 +118,17 @@ span{
 .btn-group{
   background-color: #f2f2f2;
   border: none;
+}
+.bttn{
+  border-top: 7px solid rgb(47, 244, 172);
+  border-bottom: 7px solid blue;
+  border-right: 7px solid blue;
+  border-left: 7px solid rgb(234, 247, 87);
+  border-radius: 50px;
+  padding-right: 35px;
+  padding-left:35px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 20px;
 }
