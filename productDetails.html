@@ -143,8 +143,8 @@
                 <input type="text" placeholder="Jamshed Town, Karachi">
             </div>
             <div class="search__bar">
-                <input type="text" id="txt" placeholder="Find Cars, Mobile Phones and more...">
-                <i class="fa-solid fa-search" onclick="search()"></i>
+                <input type="text" placeholder="Find Cars, Mobile Phones and more...">
+                <i class="fa-solid fa-search"></i>
             </div>
             <div class="login__sell" id="login__sell">
                 <button href="" class="login__btn" onclick="openLogin()">Login</button>
@@ -154,24 +154,50 @@
     </div>
     <div class="third__navbar">
         <div class="select__itself">
-            <a href="">All category</a>
+            <a href="">All category <i class="fa-solid fa-angle-down"></i></a>
         </div>
-        <div class="links" id="links">
-
-        </div>
-    </div>
-    <div class="ad">
-        <img src="/img/admain.jpg" alt="" height="200px">
-    </div>
-    <div class="fresh__recomandation">
-        <h1>Fresh recommendations</h1>
-        <div class="cards__container" id="cards">
-        </div>
-        <div class="load__more">
-            <button class="load__more-btn">Load More</button>
+        <div class="links">
+            <a href="#">Mobile Phones</a>
+            <a href="#">Cars</a>
+            <a href="#">Motercycles</a>
+            <a href="#">House</a>
+            <a href="#">TV - Video - Audio</a>
+            <a href="#">Tablets</a>
+            <a href="#">Land & Plots</a>
         </div>
     </div>
-    <footer>
+    <div class="productDetails">
+        <div class="left__side">
+            <img id="main" src="https://static-01.daraz.pk/p/37cd9cf9ea23a97b7d3097bfd9a03347.jpg_720x720.jpg_.webp"
+                alt="    ">
+            <div class="price__location_card">
+                <h1 id="price">11,00000</h1>
+                <h3 id="productName">Civic Eagle Eye</h3>
+                <p id="location"><i class="fa-solid fa-location-dot"></i>Liaquatabad, Karachi</p>
+            </div>
+            <div class="description">
+                <h1>Description</h1>
+                <p id="description">Civic Egale Eye 2018 model 10/8 Condition</p>
+            </div>
+        </div>
+        <div class="right__side">
+            <div class="profile_contact_card">
+                <div class="avaar">
+                    <img src="./images/avatar.png" id="image" alt="">
+                    <div class="img">
+                        <h5 id="phoneL">03452788791</h5>
+                        <p id="nameL">Usama jawaid</p>
+                    </div>
+                </div>
+                <button class="chat"><i class="fa-solid fa-comments"></i> Chat</button>
+            </div>
+            <div class="description">
+                <h1>Description</h1>
+                <p id="description2"> Civic Eagle Eye</p>
+            </div>
+        </div>
+    </div>
+    <footer><br><br><br>
         <div class="footer_the_olx_app_section">
             <img src="./images/mobile.webp" alt="">
             <div class="footer_olx_content">
@@ -245,7 +271,8 @@
         </div>
     </footer>
 </body>
-
-<script src="script.js"></script>
+<script src="./script.js">
+  
+</script>
 
 </html>
